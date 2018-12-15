@@ -12,7 +12,6 @@ app.use(bodyParser.urlencoded({
 extended: true
 }));
 
-
 //add routing
 //index page
 app.get('/', function (req, res) {
@@ -29,9 +28,11 @@ app.get('/api/json', function (req, res) {
 });
 
 //สร้างruoting เพื่อให้uesrเข้าใช้งาน
-app.get('/api/pro/',db.getAllProducts);
+app.get('/api/products/',db.getAllProducts);
+
 
 var port = process.env.PORT || 8080;
 app.listen(port, function () {
 console.log('App is running on http://localhost:' + port);
 });
+
