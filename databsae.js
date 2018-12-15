@@ -1,5 +1,5 @@
 const pgp = require('pg-promise')();
-var db = pgp('?ssl=true');
+var db = pgp('postgres://qnjxemihrmnjtx:166e4b30ba2beddd4fed787151b264ad6e471756b2c8f8aa6259dd203fd7527f@ec2-54-243-150-10.compute-1.amazonaws.com:5432/d988mh3qoj7efo?ssl=true');
 
 
 //functionไหนบ้างที่อยากจะให้serverเอาไปใช้บ้าง
