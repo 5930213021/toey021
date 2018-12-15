@@ -4,7 +4,7 @@ var db = pgp('postgres://mqvvplpgwkwaww:bbe283a5d4ce86d696c0794bfca51f66630f8553
 
 //functionไหนบ้างที่อยากจะให้serverเอาไปใช้บ้าง
 module.exports = {
-    getAllProducts,
+    getAllProducts
 };
 
 
