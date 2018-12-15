@@ -28,7 +28,7 @@ app.get('/api/json', function (req, res) {
 });
 
 //สร้างruoting เพื่อให้uesrเข้าใช้งาน
-app.get('/api/products/',db.getAllProducts);
+app.get('/api/pro/',db.getAllProducts);
 
 
 var port = process.env.PORT || 8080;
